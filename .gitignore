@@ -46,3 +46,5 @@ etrainee.Rproj
 
 # local storage files
 .DS_Store
+
+/data

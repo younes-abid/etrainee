@@ -11,6 +11,13 @@ This repository hosts the **E-TRAINEE course on Time Series Analysis in Remote S
 
 Each module consists of several themes with a theoretical part, a self-evaluation quiz, as well as practical tutorials and exercises. Moreover, modules 2-4 include two or three case studies with a deeper look into selected research problems. In addition, there is Module 0 summarising the course prerequisites in terms of knowledge in RS, statistics, and programming necessary to follow the course; links to available learning materials are provided there.
 
+## install 
+```bash
+conda create --name etrainee python==3.10.8 -y
+conda activate etrainee
+pip install -r requirements.txt
+```
+
 ## Intended audience
 
 The course is primarily developed for MSc students of geoinformatics and geography who specialize in remote sensing for monitoring Earth surface dynamics and changes. It may also be of interest and use to MSc and PhD students in fields related to environmental studies, ecology, geology, and other potential users dealing with remote sensing applications, such as practitioners of national environmental and conservation agencies.
